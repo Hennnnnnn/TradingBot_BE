@@ -28,4 +28,4 @@ class Config {
     }
 }
 
-module.exports = Config; F
+module.exports = Config;
