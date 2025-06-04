@@ -1,0 +1,30 @@
+{
+  "name": "trading-strategy-backend",
+  "version": "1.0.0",
+  "description": "Backend for Trading Strategy Simulator with ADX and Directional Indicator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node test-signals.js"
+  },
+  "keywords": [
+    "trading",
+    "strategy",
+    "adx",
+    "binance",
+    "tradingview"
+  ],
+  "author": "Trading Strategy Simulator",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
