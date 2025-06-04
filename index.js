@@ -8,7 +8,7 @@ const app = express();
 
 app.use(cors(
   {
-    origin: ['http://localhost:3000', 'https://tradingbotbe-production.up.railway.app/'],
+    origin: ['http://localhost:3000', 'https://trading-bot-fe-three.vercel.app'],
     credentials: true
   }
 ));
