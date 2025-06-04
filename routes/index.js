@@ -15,10 +15,3 @@ router.get('/orders', OrderController.getOrders);
 router.delete('/orders', OrderController.clearOrders);
 
 module.exports = router;
-
-const errorHandler = (error, req, res, next) => {
-    console.error('Unhandled error:', error);
-    res.status(500).json({ error: 'Internal server error' });
-};
-
-module.exports = errorHandler;
